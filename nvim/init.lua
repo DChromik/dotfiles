@@ -218,10 +218,10 @@ vim.keymap.set('n', '<leader>sd', require('telescope.builtin').diagnostics, { de
 -- See `:help nvim-treesitter`
 require('nvim-treesitter.configs').setup {
   -- Add languages to be installed here that you want installed for treesitter
-  ensure_installed = { 'c', 'cpp', 'go', 'lua', 'python', 'rust', 'typescript', 'help' },
+  ensure_installed = { 'lua', 'rust', 'typescript', 'help' },
 
   highlight = { enable = true },
-  indent = { enable = true },
+  ndent = { enable = true },
   incremental_selection = {
     enable = true,
     keymaps = {
@@ -337,7 +337,7 @@ require('mason').setup()
 
 -- Enable the following language servers
 -- Feel free to add/remove any LSPs that you want here. They will automatically be installed
-local servers = { 'clangd', 'rust_analyzer', 'pyright', 'tsserver', 'sumneko_lua', 'gopls' }
+local servers = { 'rust_analyzer', 'tsserver', 'sumneko_lua' }
 
 -- Ensure the servers above are installed
 require('mason-lspconfig').setup {
