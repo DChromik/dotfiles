@@ -172,7 +172,7 @@ require('lazy').setup({
     opts = {
       options = {
         icons_enabled = false,
-        theme = 'catppuccin-latte',
+        theme = 'catppuccin-mocha',
         component_separators = '|',
         section_separators = '',
       },
@@ -240,7 +240,7 @@ require('lazy').setup({
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
-vim.cmd.colorscheme 'catppuccin-latte'
+vim.cmd.colorscheme 'catppuccin-mocha'
 
 -- Set highlight on search
 vim.o.hlsearch = false
