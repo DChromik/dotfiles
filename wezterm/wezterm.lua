@@ -11,6 +11,10 @@ config.color_scheme = 'Catppuccin Mocha'
 config.font = wezterm.font('Fira Code')
 config.enable_tab_bar = false
 
+if package.config:sub(1,1) == '\\' then
+  config.default_prog = { 'C:/Program Files/PowerShell/7/pwsh.exe' }
+end
+
 config.keys = {
   { key = 'Tab', mods = 'CTRL', action = act.ActivateTabRelative(1) },
   { key = 'Tab', mods = 'SHIFT|CTRL', action = act.ActivateTabRelative(-1) },

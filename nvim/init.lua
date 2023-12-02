@@ -166,6 +166,12 @@ require('lazy').setup({
   },
 
   {
+      'windwp/nvim-autopairs',
+      event = "InsertEnter",
+      opts = {} -- this is equalent to setup({}) function
+  },
+
+  {
     -- Set lualine as statusline
     'nvim-lualine/lualine.nvim',
     -- See `:help lualine.txt`
