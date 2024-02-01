@@ -27,6 +27,8 @@ config.keys = {
   { key = '#', mods = 'SHIFT|CTRL', action = act.ActivateTab(2) },
   { key = '$', mods = 'CTRL', action = act.ActivateTab(3) },
   { key = '$', mods = 'SHIFT|CTRL', action = act.ActivateTab(3) },
+  { key = '$', mods = 'ALT|CTRL', action = act.SplitVertical { domain = 'CurrentPaneDomain' } },
+  { key = '$', mods = 'SHIFT|ALT|CTRL', action = act.SplitVertical { domain = 'CurrentPaneDomain' } },
   { key = '%', mods = 'CTRL', action = act.ActivateTab(4) },
   { key = '%', mods = 'SHIFT|CTRL', action = act.ActivateTab(4) },
   { key = '%', mods = 'ALT|CTRL', action = act.SplitHorizontal { domain = 'CurrentPaneDomain' } },
