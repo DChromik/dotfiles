@@ -6,4 +6,6 @@ require('lazy').setup({
 require('mini.surround').setup()
 require('mini.comment').setup()
 
-vim.keymap.set('n', '<leader>sf', "<cmd>call VSCodeNotify('workbench.action.quickOpen')<CR>")
+local vscode = require('vscode')
+
+vim.keymap.set('n', '<leader>sf', function() vscode.call("workbench.action.quickOpen") end)
