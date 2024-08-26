@@ -8,3 +8,6 @@ choco install lazygit
 choco install nodejs
 
 winget install powershell
+
+New-Item -ItemType SymbolicLink -Path ~\.wezterm.lua -Value ~\.config\wezterm\wezterm.lua
+New-Item -ItemType SymbolicLink -Path ~\AppData\Local\nvim\init.lua -Value ~\.config\nvim\init.lua

@@ -15,6 +15,13 @@ if package.config:sub(1,1) == '\\' then
   config.default_prog = { 'C:/Program Files/PowerShell/7/pwsh.exe' }
 end
 
+config.window_padding = {
+  left = 0,
+  right = 0,
+  top = 0,
+  bottom = 0,
+}
+
 config.keys = {
   { key = 'Tab', mods = 'CTRL', action = act.ActivateTabRelative(1) },
   { key = 'Tab', mods = 'SHIFT|CTRL', action = act.ActivateTabRelative(-1) },
