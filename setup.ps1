@@ -13,13 +13,9 @@ New-Item -ItemType SymbolicLink -Path $PSHOME\Profile.ps1 -Value $HOME\.config\w
 
 New-Item -ItemType SymbolicLink -Path $HOME\.wezterm.lua -Value $HOME\.config\wezterm\wezterm.lua
 
-New-Item -ItemType SymbolicLink -Path $HOME\AppData\Local\nvim\init.lua -Value $HOME\.config\nvim\init.lua
+if (Test-Path $ENV:LOCALAPPDATA\nvim) {
+    Remove-Item $ENV:LOCALAPPDATA\nvim -Recurse
+}
 
-if (-not(Test-Path $ENV:LOCALAPPDATA\nvim)) {
-    New-Item -ItemType Directory -Path $ENV:LOCALAPPDATA\nvim
-}
-if (Test-Path $ENV:LOCALAPPDATA\nvim\init.lua) {
-    Remove-Item $ENV:LOCALAPPDATA\nvim\init.lua
-}
-New-Item -ItemType SymbolicLink -Value $HOME\.config\nvim\init.lua -Path $ENV:LOCALAPPDATA\nvim\init.lua
+New-Item -ItemType SymbolicLink -Value $HOME\.config\nvim -Path $ENV:LOCALAPPDATA\nvim
 
