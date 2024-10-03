@@ -13,7 +13,7 @@ config.font_size = 10
 config.enable_tab_bar = false
 
 if package.config:sub(1, 1) == "\\" then
-	config.default_prog = { "C:/Program Files/PowerShell/7/pwsh.exe" }
+	config.default_prog = { "C:/Windows/system32/wsl.exe", "~" }
 end
 
 config.window_padding = {
