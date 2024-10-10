@@ -16,6 +16,16 @@ if package.config:sub(1, 1) == "\\" then
 	config.default_prog = { "C:/Windows/system32/wsl.exe", "~" }
 end
 
+config.launch_menu = {
+	{
+		label = "Ubuntu",
+	},
+	{
+		label = "Poweshell",
+		args = { "C:/Program Files/powershell/7/pwsh.exe" },
+	},
+}
+
 config.window_padding = {
 	left = 0,
 	right = 0,
