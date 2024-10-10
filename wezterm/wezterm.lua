@@ -21,7 +21,7 @@ config.launch_menu = {
 		label = "Ubuntu",
 	},
 	{
-		label = "Poweshell",
+		label = "Powershell",
 		args = { "C:/Program Files/powershell/7/pwsh.exe" },
 	},
 }
