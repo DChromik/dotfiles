@@ -33,6 +33,10 @@ config.window_padding = {
 	bottom = 0,
 }
 
+config.use_resize_increments = true
+
+config.window_background_opacity = 0.85
+
 config.keys = {
 	{ key = "Tab", mods = "CTRL", action = act.ActivateTabRelative(1) },
 	{ key = "Tab", mods = "SHIFT|CTRL", action = act.ActivateTabRelative(-1) },
