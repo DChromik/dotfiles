@@ -5,6 +5,9 @@ return {
       defaults = {
         formatter = "path.filename_first",
       },
+      winopts = {
+        border = "single",
+      },
     },
   },
 }
