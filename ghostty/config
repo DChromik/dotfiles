@@ -1,0 +1,5 @@
+theme = catppuccin-mocha
+window-padding-balance = true
+gtk-titlebar = false
+gtk-tabs-location = hidden
+background-opacity = 0.8
