@@ -1,4 +1,5 @@
 theme = catppuccin-mocha
+font-size = 12pt
 window-padding-balance = true
 gtk-titlebar = false
 gtk-tabs-location = hidden
