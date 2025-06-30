@@ -1,6 +1,6 @@
-theme = catppuccin-mocha
+theme = rose-pine
 font-size = 11
 window-padding-balance = true
 gtk-titlebar = false
 gtk-tabs-location = hidden
-background-opacity = 0.8
+background-opacity = 0.95
