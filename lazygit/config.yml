@@ -1,6 +1,10 @@
 gui:
   border: single
 
+  theme:
+    selectedLineBgColor:
+      - "#403d52"
+
 git:
   paging:
     colorArg: always
