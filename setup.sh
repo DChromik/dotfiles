@@ -6,3 +6,4 @@ ln -s $(pwd)/nvim ~/.config
 ln -s $(pwd)/lazygit ~/.config
 ln -s $(pwd)/ghostty ~/.config
 ln -s $(pwd)/starship ~/.config
+ln -s $(pwd)/.gitconfig ~/.gitconfig

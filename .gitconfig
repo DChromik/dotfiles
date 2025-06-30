@@ -1,0 +1,20 @@
+[user]
+	name = Daniel Chromik
+  email = daniel.chromik@proton.me
+
+  [includeIf "gitdir:~/Dawiso/"]
+	email = daniel.chromik@dawiso.com
+
+[core]
+  pager = delta
+
+[merge]
+  tool = nvimdiff2
+
+[diff]
+  tool = nvimdiff
+
+[delta]
+  line-numbers = true
+  syntax-theme = "base16"
+  navitate = true
