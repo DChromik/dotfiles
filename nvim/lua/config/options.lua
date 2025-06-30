@@ -3,3 +3,5 @@
 -- Add any additional options here
 
 vim.opt.spell = true
+vim.g.tsc_makeprg = "npx tsc --noEmit"
+vim.g.ai_cmp = false
