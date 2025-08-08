@@ -1,0 +1,33 @@
+layout {
+  default_tab_template {
+    pane size=1 borderless=true {
+        plugin location="tab-bar"
+    }
+    children
+    pane size=1 borderless=true {
+        plugin location="status-bar"
+    }
+  }
+
+  tab_template name="tab_neovim" {
+    pane size=1 borderless=true {
+        plugin location="tab-bar"
+    }
+    pane borderless=true command="nvim" args="."
+  }
+
+  tab_template name="tab_lazygit" {
+    pane size=1 borderless=true {
+        plugin location="tab-bar"
+    }
+    pane borderless=true command="lazygit"
+  }
+
+  tab_neovim name="Neovim" focus=true
+
+  tab_lazygit name="Git"
+
+  tab name="Server" {
+    pane
+  }
+}
