@@ -7,3 +7,4 @@ window-padding-color = extend
 gtk-titlebar = false
 gtk-tabs-location = hidden
 background-opacity = 0.95
+keybind=clear
