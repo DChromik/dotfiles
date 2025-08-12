@@ -5,4 +5,10 @@ return {
       inlay_hints = { enabled = false },
     },
   },
+  {
+    "zbirenbaum/copilot.lua",
+    opts = {
+      suggestion = { enabled = false },
+    },
+  },
 }
