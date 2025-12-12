@@ -5,6 +5,8 @@
 vim.opt.spell = true
 vim.g.tsc_makeprg = "npx tsc --noEmit"
 vim.g.ai_cmp = false
+vim.g.ai_cmp = false
+vim.g.lazyvim_ruby_formatter = "standardrb"
 vim.g.clipboard = {
   name = "wl-clipboard-background",
   copy = {
