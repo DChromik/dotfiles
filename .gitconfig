@@ -15,4 +15,5 @@
 [delta]
   line-numbers = true
   syntax-theme = "base16"
-  navitate = true
+  navigate = true
+  light = true
