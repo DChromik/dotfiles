@@ -1,20 +1,13 @@
 return {
   {
-    "rose-pine/neovim",
-    name = "rose-pine",
-    config = function()
-      require("rose-pine").setup({
-        dark_variant = "main",
-        styles = {
-          transparency = true,
-        },
-      })
-    end,
+    "Mofiqul/adwaita.nvim",
+    lazy = false,
+    priority = 1000,
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine",
+      colorscheme = "adwaita",
     },
   },
 }

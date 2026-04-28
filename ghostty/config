@@ -1,4 +1,5 @@
-theme = Rose Pine Dawn
+theme = Adwaita
+font-family = Adwaita
 window-theme = ghostty
 font-size = 11
 
