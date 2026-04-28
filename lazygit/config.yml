@@ -1,5 +1,45 @@
 gui:
   border: single
+  theme:
+    activeBorderColor:
+      - "#2a76c6"
+      - bold
+    inactiveBorderColor:
+      - "#8b8e8f"
+    searchingActiveBorderColor:
+      - "#2a76c6"
+      - bold
+    optionsTextColor:
+      - "#2a76c6"
+    selectedLineBgColor:
+      - "#4a90d9"
+    selectedRangeBgColor:
+      - "#e6f2ff"
+    cherryPickedCommitFgColor:
+      - "#2a76c6"
+    cherryPickedCommitBgColor:
+      - "#e6f2ff"
+    markedBaseCommitFgColor:
+      - "#2a76c6"
+    markedBaseCommitBgColor:
+      - "#fff5e6"
+    unstagedChangesColor:
+      - "#c01c28"
+    defaultFgColor:
+      - "#2e3436"
+    mainTextColor:
+      - "#2e3436"
+    secondaryTextColor:
+      - "#5e6c7e"
+    inactiveTextColor:
+      - "#8b8e8f"
+    windowHeader:
+      backgroundColor:
+        - "#f4f4f4"
+      foregroundColor:
+        - "#2e3436"
+      borderColor:
+        - "#e8e8e7"
 
 git:
   paging:
